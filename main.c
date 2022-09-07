@@ -1,17 +1,10 @@
 #include "simpleshell.h"
-<<<<<<< HEAD
 
 /**
  * main - starts the shell ->entry point
  *
  * Return: 1
  */
-=======
-/**
-  * main - starts the shell ->entry point
-  * Return: 1
-  */
->>>>>>> eff83b4a5175ee72cfbb6a1ace46721396932b94
 int main(void)
 {
 	int status = 1, i, j;
@@ -55,7 +48,3 @@ int main(void)
 	}
 	return (0);
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> eff83b4a5175ee72cfbb6a1ace46721396932b94
