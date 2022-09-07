@@ -16,7 +16,7 @@ int main(void)
 	{
 		status = isatty(0);
 		if (status == 1)
-			write(1, "#cisfun$ ", 9);
+			write(1, "($) ", 4);
 		line = func_read();
 		i = 0, j = 0;
 		while (line[j] != '\0')
