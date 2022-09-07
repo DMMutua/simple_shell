@@ -2,20 +2,20 @@
 
 /**
  * *_strncmp - function that compare n characters of two strings
- * @s1: String 1
- * @s2: String 2
+ * @s1: String a
+ * @s2: String b
  * @n: numbers of characters
- * Return: 0 if s1 = s2, negative value if s1 < s2 and positive if s1 > s2
+ * Return: 0 if sa = sb, negative value if sa < sb and positive if sa > sb
  */
 
-int _strncmp(char *s1, char *s2, int n)
+int _strncmp(char *sa, char *sb, int n)
 {
 	int i;
 
-	for (i = 0; s1[i] && s2[i] && i < n; i++)
+	for (i = 0; sa[i] && sb[i] && i < n; i++)
 	{
-		if (s1[i] != s2[i])
-			return (s1[i] - s2[i]);
+		if (sa[i] != sb[i])
+			return (sa[i] - sb[i]);
 	}
 	return (0);
 }
