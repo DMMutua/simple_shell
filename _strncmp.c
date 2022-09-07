@@ -2,8 +2,8 @@
 
 /**
  * *_strncmp - function that compare n characters of two strings
- * @s1: String a
- * @s2: String b
+ * @sa: String a
+ * @sb: String b
  * @n: numbers of characters
  * Return: 0 if sa = sb, negative value if sa < sb and positive if sa > sb
  */
