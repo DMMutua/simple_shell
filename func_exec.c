@@ -1,11 +1,10 @@
 #include "simpleshell.h"
-
 /**
- * func_exec - function that executes the commands
- * @args: list of commands to execute
- *
- * Return: 1
- */
+ *func_exec - function that executes the commands
+ *@args: list of commands to execute
+ *Return: 1
+*/
+
 int func_exec(char **args)
 {
 	pid_t my_pid;
